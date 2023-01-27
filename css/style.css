@@ -6,11 +6,54 @@
 }
 
 /* Common */
+.btn{
+    font-family: inherit;
+    padding: 8px 15px;
+    border: none;
+}
 
+.btn.blue{
+    font-size: 16px;
+    color: white;
+    background-color: #0061ff;
+
+}
 /* Typo */
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto',Arial, sans-serif;
+}
 
 /* Header */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
 
+.nav-bar nav ul, header nav{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+header a{
+    color: grey;
+}
 /* Main */
 
 /* Footer */
