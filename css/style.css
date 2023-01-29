@@ -344,5 +344,34 @@ section .col-left .btn.transparent {
     padding: 30px 0;
 }
 /* /Terza Section */
+/* Quarta Section */
+.quarta-section{
+    margin-top: 150px;
+}
 
+.quarta-section h2{
+    font-size: 40px;
+}
+.quarta-section h3{
+    margin-bottom: 30px;
+}
+.quarta-section img{
+    width: 100%;
+}
+.quarta-section .container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px -31px;
+    font-size: 15px;
+}
+
+.quarta-section .card{
+    width: calc(29%);
+    margin: 23px;
+}
+
+.quarta-section img{
+    width: 100%;
+}
+/* /Quarta Section */
 /* Footer */
