@@ -322,5 +322,27 @@ section .col-left .btn.transparent {
 }
 /* /Seconda Section */
 
+/* Terza Section */
+.terza-section{
+    margin-top: 150px;
+    display: flex;
+}
+
+.terza-section img{
+    width: 100%;
+    display: block;
+}
+.terza-section .col-left{
+    flex-grow: 2;
+}
+.terza-section .col-right{
+    padding: 50px 0 0 50px;
+    flex-shrink: 1.5;
+}
+
+.terza-section .col-right p{
+    padding: 30px 0;
+}
+/* /Terza Section */
 
 /* Footer */
