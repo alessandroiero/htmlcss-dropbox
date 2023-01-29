@@ -8,7 +8,7 @@
 /* Common */
 .btn {
     font-family: inherit;
-    padding: 10px 15px;
+    padding: 11px 15px;
     border: none;
 }
 
@@ -24,22 +24,28 @@
     font-size: 16px;
     padding: 0;
 }
-
-.container-big {
-    margin: 0 auto;
+.btn.white{
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.container-xl {
     max-width: 1200px;
 }
-
+.container-regular{
+    max-width: 1000px;
+}
 .container-xxl {
     max-width: 1920px;
+}
+.container-regular,.container-xl,.container-xxl{
     margin: 0 auto;
 }
-
-.btn.blue a{
+.btn.blue a {
     color: #fff;
 }
 
-.btn.transparent a{
+.btn.transparent a, .btn.white a{
     color: black;
 }
 
@@ -53,16 +59,21 @@ a {
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 p {
     line-height: 25px;
 }
+
 a {
     color: grey;
 }
 
+.link-decoration {
+    text-decoration: underline;
+    color: blue;
+}
 
 /* Header */
 header {
@@ -131,7 +142,7 @@ header a:hover::after {
 /* Jumbotron */
 .jumbotron {
     background-color: #b4d0e7;
-    width: 100vw;
+    width: 100%;
 }
 
 .jumbotron {
@@ -182,12 +193,134 @@ section h1 {
 }
 
 .box-btn .btn {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 section .col-left .btn.transparent {
     text-align: left;
 }
+
 /* /Jumbotron */
+
+/* Second Section */
+.second-section {
+    padding-top: 200px;
+}
+
+.second-section h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.second-section .input {
+    padding: 50px 0;
+    display: flex;
+    gap: 50px;
+}
+
+/* Cards */
+.second-section .card {
+    border: 1px solid #d0d0d3;
+    width: calc(29%);
+    margin: 23px;
+}
+
+.second-section .card.last {
+    flex-grow: 1;
+}
+
+.second-section .row.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -31px;
+    font-size: 14px;
+}
+
+.second-section .card.last .center-card p {
+    margin-top: 70px;
+}
+
+/* Inside Card */
+.second-section .inside-card {
+    padding: 30px;
+}
+
+.second-section .inside-card>div {
+    padding-bottom: 10px;
+}
+
+.second-section .category {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h3 {
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+/* Parte superiore inside card*/
+.card .start-card .mese {
+    color: #d0d0d3;
+}
+
+.card.last .inside-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Parte centrale inside card */
+.center-card .hr-sm {
+    width: 15%;
+    color: #fbfbfc;
+    margin: 40px 0;
+}
+
+.user,
+.storage,
+.share {
+    padding-right: 10px;
+}
+
+.description {
+    display: flex;
+    align-self: flex-start;
+}
+
+.description>span {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.description p {
+    margin-bottom: 25px;
+}
+
+.start-card,
+.center-card {
+    line-height: 50px;
+}
+
+.card .center-card .btn.blue {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+/* Parte finale Inside Card */
+.end-card li {
+    margin-top: 20px;
+}
+
+.card li::before {
+    content: "\f00c";
+    color: #0063ff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    padding-right: 5px;
+}
+/* /Seconda Section */
+
 
 /* Footer */
