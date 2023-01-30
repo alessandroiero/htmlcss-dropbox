@@ -581,3 +581,38 @@ input:checked+label+.risposta {
 
 /* /Settima Section */
 /* Footer */
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+footer .hr-medium{
+    width: 10%;
+    color: red;
+    margin: 100px 0 50px 0;
+}
+footer .grey{
+    color: grey;
+    padding-bottom: 50px;
+}
+
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .row, footer a{
+    color: white;
+}
+footer .box{
+    width: 20%;
+    margin-top: 90px;
+}
+
+footer h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+footer a{
+    line-height: 40px;
+}
