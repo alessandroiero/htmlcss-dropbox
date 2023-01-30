@@ -10,6 +10,15 @@
     font-family: inherit;
     padding: 11px 15px;
     border: none;
+
+}
+
+.btn.blue:hover {
+    background-color: rgba(0, 89, 255, 0.7);
+}
+
+.btn.white:hover {
+    background-color: rgba(240, 240, 240, 0.9);
 }
 
 .btn.blue {
@@ -415,6 +424,7 @@ section .col-left .btn.transparent {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* Colonna sinistra */
 .quinta-section .col-left .box.one {
     background-color: #a2d39b;
@@ -488,25 +498,86 @@ section .col-left .btn.transparent {
 .quinta-section .col-right .box.four {
     background-color: #ffd830;
 }
+
 /* /Quinta Section */
 /* Sesta Section */
 .sesta-section {
     background-color: #b4d0e7;
 }
-.sesta-section .btn.white{
+
+.sesta-section .btn.white {
     border: none;
 }
-.sesta-section .btn.white a{
+
+.sesta-section .btn.white a {
     color: black;
 }
-.sesta-section .container-regular{
+
+.sesta-section .container-regular {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 150px 0;
 }
-.sesta-section h2{
+
+.sesta-section h2 {
     color: #61082b;
 }
+
 /* /Sesta Section */
+/* Settima Section */
+.settima-section {
+    padding: 160px 0;
+}
+
+.settima-section h2 {
+    padding-bottom: 80px;
+}
+
+.settima-section .dropdown.icon {
+    font-size: 15px;
+    padding: 0 50px;
+}
+
+.settima-section p {
+    padding: 20px 0;
+}
+
+.settima-section .domanda {
+    display: none;
+}
+
+.settima-section label p {
+    font-weight: 700;
+}
+
+.settima-section label {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.settima-section label:nth-child(even) {
+    border-top: 1px solid rgb(85, 85, 85);
+}
+
+.settima-section .row.three {
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.risposta {
+    display: flex;
+    overflow: hidden;
+    max-height: 0px;
+}
+
+input:checked+label+.risposta {
+    overflow: hidden;
+    max-height: 500px;
+    padding: 3px;
+}
+
+/* /Settima Section */
 /* Footer */
