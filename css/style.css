@@ -101,6 +101,10 @@ h3 {
     font-size: 25px;
 }
 
+.btn{
+    cursor: pointer;
+}
+
 /* Header */
 header {
     position: fixed;
@@ -274,7 +278,7 @@ section .col-left .btn.transparent {
 
 .card h3 {
     font-size: 25px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 /* Parte superiore inside card*/
@@ -547,8 +551,9 @@ section .col-left .btn.transparent {
     display: none;
 }
 
-.settima-section label p {
+.settima-section label span {
     font-weight: 700;
+    padding: 20px 0;
 }
 
 .settima-section label {
