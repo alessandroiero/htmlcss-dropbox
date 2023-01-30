@@ -390,7 +390,7 @@ section .col-left .btn.transparent {
 
 /* Quinta Section */
 .quinta-section .container-regular {
-    padding: 150px 0 100px 0;
+    padding: 100px 0 100px 0;
 }
 
 .quinta-section h2 {
@@ -400,9 +400,10 @@ section .col-left .btn.transparent {
 .quinta-section .container-xxl {
     display: flex;
     width: 100%;
+    left: 0;
+    right: 0;
 }
 
-/* Colonna sinistra */
 .quinta-section .col-left,
 .quinta-section .col-center,
 .quinta-section .col-right {
@@ -414,9 +415,10 @@ section .col-left .btn.transparent {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* Colonna sinistra */
 .quinta-section .col-left .box.one {
     background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
 }
 
 .quinta-section .col-left .box.two {
@@ -486,7 +488,25 @@ section .col-left .btn.transparent {
 .quinta-section .col-right .box.four {
     background-color: #ffd830;
 }
-
 /* /Quinta Section */
-
+/* Sesta Section */
+.sesta-section {
+    background-color: #b4d0e7;
+}
+.sesta-section .btn.white{
+    border: none;
+}
+.sesta-section .btn.white a{
+    color: black;
+}
+.sesta-section .container-regular{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+.sesta-section h2{
+    color: #61082b;
+}
+/* /Sesta Section */
 /* Footer */
