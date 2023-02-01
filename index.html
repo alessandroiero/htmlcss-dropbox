@@ -28,8 +28,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <!-- /Google Fonts -->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -42,7 +41,7 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="nav-bar container-xxl">
+        <div class="nav-bar container-xxl d-flex">
             <div class="header-left">
                 <nav>
                     <ul>
@@ -73,7 +72,7 @@
         <section class="jumbotron">
             <div class="content container-xl">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                <div class="colonne">
+                <div class="colonne d-flex">
                     <div class="col-left">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e
                             collaboratori sono accessibili dallo stesso posto.
@@ -82,7 +81,7 @@
                             integrato per ottimizzare il flusso di lavoro
                             esistente.
                         </p>
-                        <div class="box-btn">
+                        <div class="box-btn d-flex">
                             <button class="btn blue">Inizia la tua prova gratuita</button>
                             <button class="btn transparent">Annulla in qualsiasi momento</button>
                         </div>
@@ -100,14 +99,14 @@
         <section class="second-section container-regular">
             <h2>Trova il piano business che fa per te</h2>
 
-            <div class="input">
+            <div class="input d-flex">
                 <div>
-                    <input type="radio" id="huey" name="drone" value="huey" checked>
-                    <label for="huey">Fatturazione Mensile</label>
+                    <input type="radio" id="month" name="drone" value="month" checked>
+                    <label for="month">Fatturazione Mensile</label>
                 </div>
                 <div>
-                    <input type="radio" id="huey2" name="drone" value="huey2" checked>
-                    <label for="huey2">Fatturazione annuale</label>
+                    <input type="radio" id="year" name="drone" value="year" checked>
+                    <label for="year">Fatturazione annuale</label>
                 </div>
             </div>
 
@@ -115,10 +114,10 @@
                 <!-- Prima Card  -->
                 <div class="card one">
                     <!-- Riquadro superiore Card -->
-                    <div class="category">
+                    <header class="category">
                         <span><i class="fa-solid fa-user"></i></span>
                         <span>Singolo </span>
-                    </div>
+                    </header>
                     <!-- /Riquadro superiore Card -->
 
                     <div class="inside-card">
@@ -165,10 +164,10 @@
                 <!-- Seconda Card -->
                 <div class="card two">
                     <!-- Riquadro superiore Card -->
-                    <div class="category">
+                    <header class="category">
                         <span><i class="fa-solid fa-users"></i></span>
                         <span>Team </span>
-                    </div>
+                    </header>
                     <!-- /Riquadro superiore Card -->
 
                     <div class="inside-card">
@@ -184,7 +183,7 @@
                         <div class="center-card">
                             <div class="description">
                                 <span class="user"><i class="fa-solid fa-user"></i></span>
-                                <p> 3 o più utente</p>
+                                <p> 3 o più utenti</p>
                             </div>
                             <div class="description">
                                 <span class="storage"><i class="fa-solid fa-folder"></i></span>
@@ -192,8 +191,7 @@
                             </div>
                             <div class="description">
                                 <span class="share"><i class="fa-solid fa-share-nodes"></i></span>
-                                <p> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
-                                </p>
+                                <p> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
                             </div>
                             <button class="btn blue">Prova gratis per 30 giorni</button>
                             <p >oppure <a class="link-decoration" href="">acquista ora</a></p>
@@ -219,10 +217,10 @@
                 <!-- Terza Card -->
                 <div class="card three">
                     <!-- Riquadro superiore Card -->
-                    <div class="category">
+                    <header class="category">
                         <span><i class="fa-solid fa-building"></i></span>
                         <span>Azienda </span>
-                    </div>
+                    </header>
                     <!-- /Riquadro superiore Card -->
 
                     <div class="inside-card">
@@ -259,8 +257,9 @@
                         <div class="end-card">
                             <h4>Punti Salienti del Piano</h4>
                             <ul>
-                                <li>Invia file fino a 100gb con Dropbox Transfert</li>
                                 <li>Cartelle offline su dispositivi mobili</li>
+                                <li>Servizio assistenza 24/h</li>
+                                <li>Possibilità di personalizzazione totale</li>
                             </ul>
                         </div>
                         <!-- /Parte Finale -->
@@ -271,13 +270,13 @@
                 <!-- Quarta Card -->
                 <div class="card last">
                     <!-- Nome Card -->
-                    <div class="category">
+                    <header class="category">
                         <span><i class="fa-solid fa-building"></i></span>
                         <span>Team</span>
-                    </div>
+                    </header>
                     <!-- /Nome Card -->
 
-                    <div class="inside-card">
+                    <div class="inside-card d-flex">
                         <!-- Parte sinistra -->
                         <div class="col-left">
                             <div class="start-card">
@@ -306,7 +305,7 @@
 
 
         <!-- Terza Section -->
-        <section class="terza-section container-regular">
+        <section class="terza-section container-regular d-flex">
             <div class="col-left">
                 <img src="img/partner.png" alt="partners">
             </div>
@@ -323,7 +322,7 @@
         <!-- Quarta Section -->
         <section class="quarta-section row container-regular">
             <h2>Esegui più operazioni con Dropbox Business</h2>
-            <div class="container-cards">
+            <div class="container-cards d-flex">
                 <div class="card">
                     <img src="img/business-feature-switching-tools.png" alt="switching tools">
                     <h3>Passa di meno da uno strumento all'altro</h3>
@@ -401,7 +400,7 @@
                 <a class="link-decoration" href="">Scopri di più sui nostri clienti</a>
             </div>
 
-            <div class="container-xxl row">
+            <div class="container-xxl row d-flex">
                 <div class="col-left">
                     <div class="box one">
                         <img src="img/designit.svg" alt="design logo">
@@ -446,7 +445,7 @@
         <!-- /Quinta Section -->
         <!-- Sesta Section -->
         <section class="sesta-section">
-            <div class="container-regular">
+            <div class="container-regular d-flex">
                 <h2>Porta Dropbox Business <br>nella tua azienda</h2>
                 <button class="btn white">Inizia la tua prova gratuita</button>
             </div>
@@ -508,7 +507,7 @@
     <!-- Footer -->
     <footer>
         <div class="container-xl">
-            <div class="row">
+            <div class="row d-flex">
                 <div class="box">
                     <h4>Dropbox</h4>
                     <ul>
